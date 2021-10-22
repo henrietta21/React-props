@@ -9,6 +9,12 @@ function Profile(props) {
         alert(fullName)
     }
 
+    Profile.propTypes = {
+        numberProp: PropTypes.number,
+        stringProp: PropTypes.string,
+        functionProp: PropTypes.func
+       };
+
     return (
         <div>
            <div>
