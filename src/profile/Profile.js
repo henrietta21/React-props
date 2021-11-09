@@ -9,11 +9,7 @@ function Profile(props) {
         alert(fullName)
     }
 
-    Profile.propTypes = {
-        numberProp: PropTypes.number,
-        stringProp: PropTypes.string,
-        functionProp: PropTypes.func
-       };
+  
 
     return (
         <div>
@@ -28,5 +24,10 @@ function Profile(props) {
     )
 }
 
+Profile.propTypes = {
+    numberProp: PropTypes.number,
+    stringProp: PropTypes.string,
+    functionProp: PropTypes.func
+};
 
 export default Profile
